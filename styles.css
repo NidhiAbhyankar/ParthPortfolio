@@ -1,11 +1,48 @@
-body,html{
+/* body,html{
   height:100%;
-}
+} */
 
 body  {
-  background-image: url("Images/background.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height:100%;
+background: linear-gradient(to right,#0096D1,#FFF4EA);
+
 }
+.topnav-right {
+    overflow: hidden;
+}
+
+.topnav-right a{
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+.topnav-right a:hover{
+  background-color: #3d5c5c;
+    color: white;
+}
+.topnav-right a:active{
+  background-color: #b3b3ff;
+  color: white;
+}
+
+.container{
+/*  border: 1px solid black;*/
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  padding:10px;
+  position: relative;
+   margin-top: 70px;
+  background-color: #264d73;
+  height: 300px;
+
+}
+
+/* .topnav-left{
+  font-size: 35px;
+  float: left;
+  font-family: monospace;
+  color: black;
+} */

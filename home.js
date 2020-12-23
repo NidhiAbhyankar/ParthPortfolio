@@ -1,7 +1,7 @@
 const resume=document.querySelector('#first');
 resume.addEventListener('click',function(){
   console.log('working');
-  window.open("Nidhiabhyankar.pdf", "_blank");
+  window.open("ParthMujumdar.pdf", "_blank");
 });
 
 

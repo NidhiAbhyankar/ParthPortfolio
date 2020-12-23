@@ -68,6 +68,7 @@ background: linear-gradient(to right,#0D012E,#F5EAEF);
 
 #info{
   color:black;
+  
   /* background-color: #e6f5ff; */
 }
 
@@ -89,4 +90,23 @@ background: linear-gradient(to right,#0D012E,#F5EAEF);
 .resume:hover,.projects:hover{
   background-color: #B3CCE6;
   color:black;
+}
+
+
+
+/* Project page */
+
+.project-heading{
+  text-align: center;
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.project-desc{
+  width:75%;
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.1rem;
 }
